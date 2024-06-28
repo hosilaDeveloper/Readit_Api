@@ -9,5 +9,5 @@ urlpatterns = [
     path('authors', AuthorView.as_view(), name='authors'),
     path('blog/', PostView.as_view(), name='blog'),
     path('comments/', CommentView.as_view(), name='comment'),
-    path('abouts/', AboutView.as_view(), name='about')
+    path('abouts/', AboutView.as_view(), name='about'),
 ]

@@ -1,6 +1,8 @@
 from .models import *
 from .serializers import *
 from rest_framework.generics import ListAPIView, CreateAPIView, ListCreateAPIView, RetrieveAPIView
+
+
 # Create your views here.
 
 
